@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/sumengmint/react-mobx-webpack-koa/issues"
   },
-  "homepage": "https://github.com/sumengmint/react-mobx-webpack-koa#readme",
+  "homepage": "https://github.com/sumengmint/react-mobx-webpack-koa #readme",
   "dependencies": {
     "@types/react": "^16.4.6",
     "@types/react-dom": "^16.0.6",
