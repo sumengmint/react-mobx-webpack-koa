@@ -12,4 +12,4 @@ var server = new WebpackDevServer(compiler, {
   publicPath: path.resolve(__dirname, "../"),
   watchContentBase: true,
 });
-server.listen(8080);
+server.listen(7000);

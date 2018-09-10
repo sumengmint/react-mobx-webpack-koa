@@ -6,7 +6,7 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: [
-    "webpack-dev-server/client?http://localhost:8080/",
+    "webpack-dev-server/client?http://localhost:7000/",
     "./src/index.tsx"
   ],
   output: {
@@ -26,7 +26,9 @@ module.exports = {
     new webpack.NamedModulesPlugin(),
   ],
 
-  module: {
+	mode:'development',
+
+	module: {
     rules: [
       // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
       { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
