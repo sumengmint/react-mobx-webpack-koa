@@ -32,6 +32,6 @@
     "typescript": "^2.9.2",
     "webpack-cli": "^3.0.8",
     "webpack-command": "^0.4.1",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.1.11"
   }
 }
